@@ -1,14 +1,14 @@
-package com.example.restfulwebservices;
+package com.example.restfulwebservices.user;
 
 import java.time.LocalDate;
 
-public class user {
+public class User {
 
     private Integer  id;
     private String name;
     private LocalDate birthDate;
 
-    public user(Integer id, String name, LocalDate birthDate) {
+    public User(Integer id, String name, LocalDate birthDate) {
         this.id = id;
         this.name = name;
         this.birthDate = birthDate;
